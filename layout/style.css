@@ -1,3 +1,209 @@
-strong{
-color: #00A4E5;
+
+
+* {
+    font-family: 'Open Sans', sans-serif;
+    /* text-align: center;
+    letter-spacing: 4px;
+    text-transform: uppercase;
+    word-spacing: 7px;
+    font-width: 100px;
+    font-style: bold; */
+}
+
+body {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+.header-container {
+    width: 1200px;
+    height: 642px;
+    background-image: url(media/header_image.png);
+    background-repeat: no-repeat;
+    background-position: center center;
+    background-size: contain;
+    text-align: center;
+    color: white;
+}
+
+.logoMain {
+    padding-top: 35px;
+}
+
+.header-title {
+    font-family: 'Bebas Neue', sans-serif;
+    font-size: 40px;
+    letter-spacing: 1px;
+    padding-top: 260px;
+    margin: 0px;
+}
+
+.header-subtitle {
+    font-size: 12px;
+    letter-spacing: 1px;
+}
+
+.header-scroll-down {
+    padding-top: 140px;
+    margin: 0px;
+    color: white;
+}
+
+.header-scroll-down-button {
+    font-size: 10px;
+    letter-spacing: 3px;
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+    color: white;
+}
+
+.nav-wrapper {
+    border: 1px solid #E6E6E6;
+}
+
+.main-container {
+    margin: 0px 150px 0px 150px;
+}
+
+main, .nav-wrapper {
+    color: #48555B;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    border-bottom: 2px solid #00A4E5;
+    padding: 20px 0px 5px;
+    letter-spacing: 2px;
+
+}
+
+.textblock-title {
+    font-size: 20px;
+}
+
+.textbox-text {
+    font-size: 13px;
+}
+
+strong {
+    color: #00A4E5;
+}
+
+li {
+    list-style-type: none;
+}
+
+a {
+    color: black;
+    text-decoration: underline;
+}
+
+.story-bitmap {
+    height: 200px;
+    weight: 267px;
+    background-repeat: no-repeat;
+    padding: 10px;
+    background-size: contain;
+    font-size: 24px;
+    color: white;
+}
+
+#we_plan {
+    background-image: url(media/we_plan.png);
+}
+
+#we_manage {
+    background-image: url(media/we_manage.png);
+}
+
+#we_build {
+    background-image: url(media/we_build.png);
+}
+
+.section_wrapper {
+    padding: 25px;
+}
+
+.btn-blue {
+    background-color: #00A4E5;
+    color: white;
+    width: 150px;
+    height: 40px;
+    padding: 0px;
+    border: none;
+    text-transform: uppercase;
+    font-size: 13px;
+}
+
+.article-container {
+    width: 263px;
+    height: 290px;
+    border: 1px solid #E6E6E6;
+    padding: 30px;
+    margin: 14px;;
+}
+
+h3 {
+    font-size: 16px;
+}
+
+#sectionContact {
+    text-align: center;
+    padding-top: 80px;
+}
+
+.get_in_touch {
+    background-image: url(media/get-in-touch.svg);
+    background-repeat: no-repeat;
+    background-position: center center;
+    border: none;
+    width: 1200px;
+    height: 498.24px;
+}
+
+.contact-title {
+    font-size: 36px;
+}
+
+#signUpForm {
+    display: inline-block;
+    width: 1200px;
+    background-color: #171819;
+    border: none;
+    color: #FFFFFF;
+    text-align: center;
+}
+
+#email {
+    box-sizing: border-box;
+    width: 250px;
+    height: 40px;
+    border: none;
+    padding: 10px;
+}
+
+.sign_up {
+    font-size: 22px;
+    letter-spacing: 2px;
+}
+
+footer {
+    display: inline-block;
+    width: 1200px;
+    border: none;
+    background-color: #141A20;
+    color: #FFFFFF;
+}
+
+.footer-content__rights {
+    text-align: center;
+    background-color: #171819;
+}
+
+.footer-wrap-container {
+    margin: 0px 150px 0px 150px;
+    font-size: 11px;
 }
