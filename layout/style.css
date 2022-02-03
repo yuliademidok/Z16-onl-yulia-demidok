@@ -60,15 +60,18 @@ header button:hover {
     color: rgba(255, 255, 255, 0.5);
 }
 
-header nav {
+.navigation {
+    position: sticky;
     border: 1px solid #E6E6E6;
     margin-bottom: 50px;
     top: 0;
+    background-color: white;
+    margin-top: -1px;
+    Z-index: 10;
 }
 
-nav {
-  position: sticky;
-  top: 0;
+.navigation a:hover {
+    color: rgba(0, 0, 0, 0.5);
 }
 
 .nav-wrapper {
@@ -78,25 +81,25 @@ nav {
 }
 
 .nav-logo {
-    margin: auto;
+    margin: auto auto auto 0;
 }
 
-.nav-wrapper ul {
+.nav-wrapper nav {
     margin: auto 0 auto 350px;
 }
 
-.nav-wrapper ul li {
+.nav-wrapper nav a {
     font-size: 12px;
     float: left;
     padding: 17px;
     font-weight: 600;
 }
 
-.nav-wrapper ul li a:focus {
+.nav-wrapper nav a:focus {
     color: #00A4E5;
 }
 
-main, .nav-wrapper ul li a {
+main, .nav-wrapper nav a {
     color: #48555B;
 }
 
@@ -216,6 +219,10 @@ strong {
     cursor:pointer;
 }
 
+.btn-blue:hover {
+    background-color: rgba(0, 164, 229, 0.8);
+}
+
 .our-capabilities_articles {
     display: flex;
 }
@@ -315,9 +322,10 @@ footer {
 
 .company-info-content {
     max-width: 250px;
+    margin: 0 71px 0 0;
 }
 
-.company-info-content h3 {
+.footer-content_main-block h3 {
     margin-bottom: 19px;
 }
 
@@ -326,23 +334,47 @@ footer {
 }
 
 .company-links-content {
+    margin-left: 0;
+}
+
+.company-links {
+    display: grid;
+    grid-template-columns: auto auto auto;
+    line-height: 25px;
+    width: 262px;
+    margin-top: 10px;
+    column-gap: 25px;
+}
+
+.company-links a {
+    margin-left: 0;
+}
+
+.company-contacts-content p {
+    margin-bottom: 15px;
+}
+
+.company-media-content ul {
     display: flex;
-    flex-direction: column;
+    padding: 0;
 }
 
-.company-contacts-content {
-
+.company-media-content ul li {
+    margin-right: 25px;
 }
 
+.company-media-content a {
+    color: white;
+}
 
-
-
-
-
+.company-media-content img {
+    height: 12.4px;
+    background-color: #141A20;
+}
 
 .footer-content_rights {
+    padding: 22px 0;
     text-align: center;
+    letter-spacing: 0.846154px;
     background-color: #171819;
 }
-
-
